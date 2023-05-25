@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: ultralytics
+Version: 8.0.3
+Summary: Ultralytics YOLOv8 and HUB
+Home-page: https://github.com/ultralytics/ultralytics
+Author: Ultralytics
+Author-email: hello@ultralytics.com
+License: GPL-3.0
+Project-URL: Bug Reports, https://github.com/ultralytics/ultralytics/issues
+Project-URL: Funding, https://ultralytics.com
+Project-URL: Source, https://github.com/ultralytics/ultralytics
+Keywords: machine-learning,deep-learning,vision,ML,DL,AI,YOLO,YOLOv3,YOLOv5,YOLOv8,HUB,Ultralytics
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+<H1 align="center">Automatic Number Plate Detection and Recognition using YOLOv8</H1>
+
+
+## Steps to run Code
+
+- Clone the repository
+```
+git clone https://github.com/MuhammadMoinFaisal/Automatic_Number_Plate_Detection_Recognition_YOLOv8.git
+```
+- Goto the cloned folder.
+```
+cd Automatic_Number_Plate_Detection_Recognition_YOLOv8
+```
+- Install the dependecies
+```
+pip install -e '.[dev]'
+
+```
+
+- Setting the Directory.
+```
+cd ultralytics/yolo/v8/detect
+```
+
+
+- Downloading a Weights from the Google Drive
+```
+gdown "https://drive.google.com/uc?id=1dIyJooVaowaNUj0R1Q-HUnu-utiGsEj8&confirm=t"
+```
+- Downloading a Sample Video from the Google Drive
+```
+gdown "https://drive.google.com/uc?id=1P-oVR0J35Dw40lzw47sE19oADSW-tyb1&confirm=t"
+
+```
+- Run the code with mentioned command below (For Licence Plate Detection).
+```
+python predict.py model='best.pt' source='demo.mp4'
+```
+
+- For Licence Plate Detection and Recognition
+
+- Download the Updated predict.py file from the drive
+```
+gdown "https://drive.google.com/uc?id=1S6GkQcDq8W0ThaUeZ708UegHIRiVWzTo&confirm=t"
+```
+- Run the code with mentioned command below (For Licence Plate Detection and Recognition).
+```
+python predict.py model='best.pt' source='demo.mp4'
+```
+
+### RESULTS
+
+#### Licence Plate  Detection and Recognition  
+![](./ultralytics/figure1.png)
+
+#### Licence Plate  Detection and Recognition
+
+![](./ultralytics/figure3.png)
+
+### Watch the Complete Step by Step Explanation
+
+- Video Tutorial Link  [`YouTube Link`](https://www.youtube.com/watch?v=lkAJBSmIL50&t=5s)
+
+
+[![Watch the Complete Tutorial for the Step by Step Explanation](https://img.youtube.com/vi/lkAJBSmIL50/0.jpg)]([https://www.youtube.com/watch?v=StTqXEQ2l-Y](https://www.youtube.com/watch?v=lkAJBSmIL50))
+
