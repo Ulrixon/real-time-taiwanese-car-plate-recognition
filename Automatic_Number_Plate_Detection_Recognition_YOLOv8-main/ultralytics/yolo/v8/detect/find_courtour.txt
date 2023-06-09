@@ -1,0 +1,45 @@
+# find contours
+    contours, hierarchy = cv2.findContours(
+        gray.astype(np.uint8), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE
+    )
+    # cv2.drawContours(img, contours, 0, (255,255,255), 3)
+    # print(contours)
+    # print ("contours:",len(contours))
+    epsilon = 0.01 * cv2.arcLength(contours[0], True)
+    approx = cv2.approxPolyDP(contours[0], epsilon, True)
+    print(approx)
+    cv2.drawContours(img, [approx], 0, (125), 3)
+    print("simplified contour has", len(approx), "points")
+    print("largest contour has ", len(contours[0]), "points")
+    cv2.imshow("", img)
+
+    # waits for user to press any key
+    # (this is necessary to avoid Python kernel form crashing)
+    cv2.waitKey(0)
+
+    # closing all open windows
+    cv2.destroyAllWindows()
+    # new_img=np.zeros(gray.shape)
+    H = cv2.getPerspectiveTransform(
+        np.array(approx, np.float32),
+        np.array(
+            [
+                [[0, 0]],
+                [[gray.shape[1], 0]],
+                [[0, gray.shape[0]]],
+                [[gray.shape[1], gray.shape[0]]],
+            ],
+            np.float32,
+        ),
+    )
+    new_img = cv2.warpPerspective(
+        gray.astype(np.uint8), H, (gray.shape[1], gray.shape[0])
+    )
+    cv2.imshow("", new_img)
+
+    # waits for user to press any key
+    # (this is necessary to avoid Python kernel form crashing)
+    cv2.waitKey(0)
+
+    # closing all open windows
+    cv2.destroyAllWindows()
