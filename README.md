@@ -1,12 +1,13 @@
 # real_time_object_detect
 ![1](https://github.com/Ulrixon/real_time_object_detect/assets/61776179/7dc99966-a7be-4ce9-941f-8578100d649f)
 ![2](https://github.com/Ulrixon/real_time_object_detect/assets/61776179/8ce2f863-9271-4270-9825-ef4d12fbc12f)
-all sources are from roboflow.com
-car plat bbox
-source1:yolov5_LPIv1_DS1
-source2:LicensePlates
-source3:regnummer
-source4:number_plate
+all sources are from roboflow.com  
+car plat bbox  
+source1:[yolov5_LPIv1_DS1](https://universe.roboflow.com/khushal-koli-tcwmx/yolov5_lpiv1-m2q6f/dataset/1)
+source2:[LicensePlates](https://universe.roboflow.com/emil-jahnke/licenseplates-mihfw/dataset/1)
+source3:[regnummer](https://universe.roboflow.com/lemons/regnummer/dataset/11)
+source4:[number_plate](https://universe.roboflow.com/numberplate-qabtg/number_plate-rq8tn/dataset/2)
+
 ![3](https://github.com/Ulrixon/real_time_object_detect/assets/61776179/5ce634f0-bc75-421f-944a-7b8855d5eeb0)
 ![4](https://github.com/Ulrixon/real_time_object_detect/assets/61776179/c0b696e7-93cb-4a24-bd3b-2258b6f2dd0a)
 ![5](https://github.com/Ulrixon/real_time_object_detect/assets/61776179/963a42e6-5a40-4218-9744-04173ecdad0b)
