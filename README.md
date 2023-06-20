@@ -1,6 +1,6 @@
 # real_time_object_detect
 
-the code for running this model is in 
+the code for running this model is in yolov8-double_live.py
 ![1](https://github.com/Ulrixon/real_time_object_detect/assets/61776179/7dc99966-a7be-4ce9-941f-8578100d649f)
 ![2](https://github.com/Ulrixon/real_time_object_detect/assets/61776179/8ce2f863-9271-4270-9825-ef4d12fbc12f)
 all data sources are from roboflow.com  
