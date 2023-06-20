@@ -1,5 +1,8 @@
 # real_time_object_detect
 
+this is a project for detecting car plate, especially tawanese car plate, below has some slides picture briefly tell you my work  
+here is a [demo video](https://youtu.be/9aD8Aa4gEUM) of this project  
+
 the code for running this model is in yolov8-double_live.py  
 use file search to find it.  
 yolov8s_bbox is best_bbox.pt  
@@ -9,7 +12,7 @@ yolov8s_bbox training details are in runs
 yolov8s_ocr training details are in runs_s_ocr file  
 including P,PR,R curve and some train and validation pictures
 
-[demo video](https://youtu.be/9aD8Aa4gEUM) of this code  
+
 this py file does not contain voting function so if u want use yolov8_test.py  
 
 ![1](https://github.com/Ulrixon/real_time_object_detect/assets/61776179/7dc99966-a7be-4ce9-941f-8578100d649f)
