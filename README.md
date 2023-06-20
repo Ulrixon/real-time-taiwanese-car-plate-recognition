@@ -1,10 +1,11 @@
 # real_time_object_detect
 
 the code for running this model is in yolov8-double_live.py  
+use file search to find it.  
 yolov8s_bbox is best_bbox.pt  
 yolov8s_ocr is best_s_ocr.pt  
-[demo video](https://youtu.be/9aD8Aa4gEUM) of this code
-it does not contain voting function so if u want use yolov8_test.py
+[demo video](https://youtu.be/9aD8Aa4gEUM) of this code  
+this py file does not contain voting function so if u want use yolov8_test.py  
 
 ![1](https://github.com/Ulrixon/real_time_object_detect/assets/61776179/7dc99966-a7be-4ce9-941f-8578100d649f)
 ![2](https://github.com/Ulrixon/real_time_object_detect/assets/61776179/8ce2f863-9271-4270-9825-ef4d12fbc12f)
