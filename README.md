@@ -3,6 +3,8 @@
 the code for running this model is in yolov8-double_live.py  
 yolov8s_bbox is best_bbox.pt  
 yolov8s_ocr is best_s_ocr.pt  
+[demo video](https://youtu.be/9aD8Aa4gEUM) of this code
+it does not contain voting function so if u want use yolov8_test.py
 
 ![1](https://github.com/Ulrixon/real_time_object_detect/assets/61776179/7dc99966-a7be-4ce9-941f-8578100d649f)
 ![2](https://github.com/Ulrixon/real_time_object_detect/assets/61776179/8ce2f863-9271-4270-9825-ef4d12fbc12f)
@@ -23,6 +25,9 @@ source5:[license](https://universe.roboflow.com/project-oee82/license-bha52/data
 ![5](https://github.com/Ulrixon/real_time_object_detect/assets/61776179/963a42e6-5a40-4218-9744-04173ecdad0b)
 ![6](https://github.com/Ulrixon/real_time_object_detect/assets/61776179/c9f6a954-5a95-402b-986e-a67e041db885)
 ![7](https://github.com/Ulrixon/real_time_object_detect/assets/61776179/4823a453-4bbb-4aff-a15d-e1b08af52f38)
+
 ![8](https://github.com/Ulrixon/real_time_object_detect/assets/61776179/26f26c6d-a310-4785-9ee6-eb99b8255d80)
 ![9](https://github.com/Ulrixon/real_time_object_detect/assets/61776179/f32baed5-cf2a-4553-a525-3c414d84ad73)
 
+#reference
+[Automatic Number Plate Detection and Recognition using YOLOv8](https://github.com/MuhammadMoinFaisal/Automatic_Number_Plate_Detection_Recognition_YOLOv8)
