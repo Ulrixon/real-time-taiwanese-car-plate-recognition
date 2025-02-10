@@ -1,4 +1,4 @@
-# real_time_object_detect
+# Real Time Object Detection
 
 This is a project for detecting car plate, especially tawanese car plate, below has some slides picture briefly tell you my work.  
 Here is a [demo video](https://youtu.be/9aD8Aa4gEUM) of this project.  
